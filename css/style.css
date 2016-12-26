@@ -1,0 +1,66 @@
+h2 {
+  color: #428bca;
+}
+
+p {
+  font-size: 16px;
+}
+
+.indent {
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #428bca;
+}
+
+.social-icons {
+  margin-right: 20px;
+}
+
+.twitter {
+  background-color: #00aced;
+  color: #ffffff;
+}
+
+.fcc {
+  background-color: darkgreen;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  color: #ffffff;
+}
+
+.email {
+  background-color: #008800;
+  color: #ffffff;
+}
+
+body {
+  background-color: #333333;
+}
+
+.content {
+  color: #fff;
+  padding: 50px;
+}
+
+.portfolio-thumb {
+  width: 100%;
+  max-width: 200px;
+}
+.grid {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.subsection {
+  color: #1ba3dc;
+}
