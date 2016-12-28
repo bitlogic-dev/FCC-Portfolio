@@ -1,24 +1,69 @@
+body {
+  background-color:  	#d0b783;
+  color: #666547;
+}
+
 h2 {
-  color: #428bca;
+  color:  	#6fcb9f;
+}
+
+h3 {
+  color: #00a0b0;
+}
+
+a {
+  color: #2793e8;
 }
 
 p {
   font-size: 16px;
+  color: #666547;
 }
 
 a:hover {
+  color: #85bdde;
   text-decoration: none;
 }
 
-.indent {
-  padding-left: 20px;
+a:visited, a:focus, a:active {
+    text-decoration: none;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  color: #d0b783;
+}
+
+.section-content {
+  padding: 10px;
+  background-color: #ffe28a;
+  border: 1px solid #333;
+}
+
+.section-heading {
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  background-color: #333;
+  font-size: 28px;
+  color: #c6c386;
+}
+
+.sub-section {
+  background-color:  	#d7c797;
+  padding: 0px 15px 15px 15px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
 }
 
 .footer {
-  background-color: #222;
+  background-color: #333;
   padding-top: 20px;
   padding-bottom: 10px;
-  color: #428bca;
+  color: #d0b783;
 }
 
 .social-icons {
@@ -44,19 +89,21 @@ a:hover {
   color: #ffffff;
 }
 
-body {
-  background-color: #555;
-}
-
 .content {
-  color: #fff;
   padding: 50px;
 }
 
 .portfolio-thumb {
   max-width: 250px;
   max-height: 250px;
+  -webkit-transition: -webkit-transform .25s linear;
+  transition: transform .25s linear;
+}
 
+.portfolio-thumb:hover {
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .thumb-wrap {
@@ -73,6 +120,7 @@ body {
 }
 
 .grid-title {
+  font-size: 24px;
   margin: 0 auto;
   text-align: center;
 }
@@ -83,8 +131,4 @@ body {
 
 .hidden {
   display: none;
-}
-
-.subsection {
-  color: #1ba3dc;
 }
