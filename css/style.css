@@ -1,6 +1,7 @@
 body {
   background-color:  	#d0b783;
-  color: #666547;
+  color: #333;
+  padding-top: 50px;
 }
 
 h2 {
@@ -17,7 +18,7 @@ a {
 
 p {
   font-size: 16px;
-  color: #666547;
+  color: #333;
 }
 
 a:hover {
@@ -27,6 +28,11 @@ a:hover {
 
 a:visited, a:focus, a:active {
     text-decoration: none;
+}
+
+.anchor {
+  padding-top: 40px;
+  margin-top: -40px;
 }
 
 .navbar {
@@ -44,8 +50,8 @@ a:visited, a:focus, a:active {
 }
 
 .section-heading {
-  height: 35px;
-  line-height: 35px;
+  height: 40px;
+  line-height: 40px;
   padding-left: 10px;
   background-color: #333;
   font-size: 28px;
@@ -90,7 +96,7 @@ a:visited, a:focus, a:active {
 }
 
 .content {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
 }
 
 .portfolio-thumb {
